@@ -21,7 +21,7 @@ function playgame(){
     }
     
     alert("Good job! You guessed correctly! You guessed " + iNumGuesses + " time(s)!");
-    alert("Jacob is testing this still haha");
+    alert("This work?");
 }
 
 
