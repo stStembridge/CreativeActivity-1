@@ -116,23 +116,20 @@ function playBasketball(){
         // runs if true)
 
         //prints "March Madness"
-        document.write("March Madness");
+        document.write("March Madness! How far will you go?");
     }
     else if (dPercent > .5) {
         //they had an ok season
         //runs if true
 
         //prints "NIT"
-         document.write("NIT");
+         document.write("NIT. Could be worse.");
     }
     else {
         //they had a horrible season
         //this means they won less than half of their games.
 
         //prints "See you next year!"
-        document.write("<br>" + "See you next year!");
+        document.write("<br>" + "You didn't win more than 50% of your games. Haha Your coach's job is now on the line and the fans are mobbing!");
     }
-
-    // pauses the program at the very and and thanks the user for using the program
-    document.write("<br>" + "Thank you for using our program!");
 }
