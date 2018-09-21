@@ -1,7 +1,7 @@
 //Function to play the number guessing game
 function playgame(){
     var lowerBound = 0;
-    var upperBound = 10;
+    var upperBound = 100;
     var upperBoundForTheRandomNumberGenerator = upperBound + 1;
     var guess;
     var guessThisNumber = Math.floor(Math.random() * upperBoundForTheRandomNumberGenerator);
@@ -21,7 +21,6 @@ function playgame(){
     }
     
     alert("Good job! You guessed correctly! You guessed " + iNumGuesses + " time(s)!");
-    alert("This work?");
 }
 
 
